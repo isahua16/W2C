@@ -6,3 +6,7 @@
   display: flex;
   justify-content: center;
 }
+
+img {
+  clip-path: ellipse(46% 40% at 50% 50%);
+}
