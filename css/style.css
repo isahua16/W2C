@@ -1,10 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 80%;
+  margin: 150px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
 #time {
   text-align: center;
 }
 
 .img_row {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 img {
